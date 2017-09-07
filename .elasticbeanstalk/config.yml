@@ -2,6 +2,8 @@ branch-defaults:
   master:
     environment: node-express-dev-env
     group_suffix: null
+  develop:
+    environment: node-express-stage-env
 global:
   application_name: node-express
   branch: null
