@@ -8,8 +8,8 @@ EnvironmentTier:
   Type: Standard
 OptionSettings:
   aws:autoscaling:asg:
-    MaxSize: '3'
-    MinSize: '3'
+    MaxSize: '2'
+    MinSize: '2'
   aws:autoscaling:launchconfiguration:
     IamInstanceProfile: aws-elasticbeanstalk-ec2-role
     InstanceType: t2.micro
