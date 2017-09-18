@@ -1,7 +1,7 @@
 EnvironmentConfigurationMetadata:
   Description: Configuration created from the EB CLI using "eb config save".
-  DateCreated: '1505770513000'
-  DateModified: '1505770513000'
+  DateCreated: '1505771403000'
+  DateModified: '1505771403000'
 Platform:
   PlatformArn: arn:aws:elasticbeanstalk:us-east-1::platform/Node.js running on 64bit Amazon Linux/4.2.2
 OptionSettings:
@@ -13,8 +13,8 @@ OptionSettings:
   aws:elb:loadbalancer:
     CrossZone: true
   aws:autoscaling:asg:
-    MaxSize: '1'
-    MinSize: '1'
+    MaxSize: '2'
+    MinSize: '2'
   aws:elasticbeanstalk:environment:
     ServiceRole: aws-elasticbeanstalk-service-role
   aws:elasticbeanstalk:healthreporting:system:
