@@ -1,6 +1,6 @@
 branch-defaults:
   master:
-    environment: node-express-stage-env
+    environment: node-express-stg-env
     group_suffix: null
   develop:
     environment: node-express-dev-env
